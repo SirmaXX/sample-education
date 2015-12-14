@@ -1,0 +1,47 @@
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+html { font-size: 62.5%; }
+body { margin: 0; padding: 0; background-image: url(background.jpg); }
+
+/* buttons */
+
+.btn-align { position: relative; top: 45%; }
+.btn-ghost {
+  display: block;
+  width: 540px; width: 54rem;
+  height: 66px; height: 6.6rem;
+  font: 700 20px/66px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font: 2.0rem/6.6rem;
+  letter-spacing: 0.01rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .16s ease;
+  margin: 0 auto;
+          margin-top:20px; margin-top:2.0rem; 
+}
+
+
+.btn-white { color: #fff; border: 2px solid #fff; }
+.btn-white:hover, .btn-white:active, .btn-white:focus  {
+  color: #06c;
+ 
+  border: 2px solid #fff;
+}
+
+@media screen and (max-width: 420px) { /* iPhone Landscape */
+  .btn-ghost {
+    width: 290px; width: 29.0rem;
+    height: 50px; height: 5.0rem;
+    font-size: 16px; font-size: 1.6rem;
+    line-height: 50px; line-height: 5.0rem;
+      margin-top:20px; margin-right:2.0rem; 
+  }
+}
+
+/* Backgrounds */
+#bg-blue{ height: 50vh; }
+.bilgipop{margin-top:20px;}
+
+.yazi{height:75vh; background-image: url(textures/rectangular-black-white.gif);}
